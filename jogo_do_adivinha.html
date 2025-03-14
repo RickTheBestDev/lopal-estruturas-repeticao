@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       
+        
+        for(encerrar = 2; encerrar >= 2; encerrar ++ ){
+            let começar = 1;
+            let inicio = parseInt (prompt
+             ("Bem-vindo ao Jogo da Adivinhação! Digite 1 para INICIAR ou 2 para ENCERRAR"));
+            if( encerrar == inicio ) {
+                alert("ok, sem problema"); 
+                break;
+            }else{
+                if( começar == inicio ){
+                alert("vamos jogar") 
+         
+            
+                let numeroPensado = 5
+
+            }for(tentativa = 1; tentativa <= 3; tentativa ++){
+            let chute = prompt(" Adivinhe o um numero de 1 a 100");
+            if(chute == numeroPensado){
+                alert("parabens, voce acertou!");
+                break;
+            }else{
+                alert("Você errou! Você tem mais" + (3 - tentativa) + 
+                                    " tentativas.");
+                if(tentativa == 3){   
+                    document.write("eu tinha pensado" + numeroPensado);
+                }
+            }
+        }
+
+    }   
+    
+        }
+
+
+    </script>
+</body>
+</html>
